@@ -1,0 +1,10 @@
+O=int(input())
+f=int(input())
+t=int(input())
+p=min(t//5,f)
+q=t-p*5
+if(q<=O):
+    print(q)
+    print(p)
+else:
+    print(-1)
